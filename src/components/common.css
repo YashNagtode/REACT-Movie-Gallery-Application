@@ -1,0 +1,100 @@
+.logo {
+    height: 90px;
+    width: 95px;
+}
+
+.nameTd {
+    font-size: 20px;
+}
+
+.wrapper {
+    align-content: center;
+    display: inline-grid;
+    gap: 10px;
+    margin: 10px;
+}
+
+.grid-item {
+    background-color: #459fff;
+    color: white;
+    padding: 20px;
+    font-size: medium;
+    /* font-size: 1.5em; */
+    text-align: center;
+    border-radius: 10px;
+}
+
+.ordersStyle {
+    float: right;
+    align-content: right;
+    align-self: right;
+}
+
+.videoContainer {
+    width: auto;
+    border: 2px solid #c6e2ff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.videoStyle {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+.searchBoxContainer {
+    display: flex;
+    justify-content:
+        center;
+    align-items:
+        center;
+
+}
+
+.searchBox {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+
+    transition: width 0.4s ease-in-out;
+}
+
+.search-box:focus {
+    width: 400px;
+    /* Expanded width on focus */
+    border-color: #007bff;
+    /* Change border color on focus */
+    outline: none;
+    /* Remove default outline */
+}
+
+::placeholder {
+    color: #888;
+    /* Placeholder text color */
+    opacity: 1;
+    /* Ensures full opacity */
+    transition: color 0.4s ease-in-out;
+    /* Animation for placeholder text color */
+}
+
+.detailsDiv {
+    background-color: #ff9945;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: medium;
+    /* font-size: 1.5em; */
+    text-align: center;
+    border-radius: 10px;
+}
+
+.genreDiv {
+    text-align: center;
+}
+
+.container {
+    max-width: 90%;
+}
